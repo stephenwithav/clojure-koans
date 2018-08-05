@@ -1,7 +1,7 @@
 (ns koans.08-conditionals
   (:require [koan-engine.core :refer :all]))
 
-(comment Taking a 15-minute break.)
+(comment Estoy aqui.)
 
 (defn explain-exercise-velocity [exercise-term]
   (case exercise-term
