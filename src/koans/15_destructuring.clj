@@ -1,8 +1,6 @@
 (ns koans.15-destructuring
   (:require [koan-engine.core :refer :all]))
 
-(comment Dinner break.)
-
 (def test-address
   {:street-address "123 Test Lane"
    :city "Testerville"
