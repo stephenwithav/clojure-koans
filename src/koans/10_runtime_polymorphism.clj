@@ -1,6 +1,10 @@
 (ns koans.10-runtime-polymorphism
   (:require [koan-engine.core :refer :all]))
 
+(comment How did I miss this?  How did the koans runner miss this?
+         Apparently it watches for filesystem notifications, then performs a check.
+         Tests aren't run sequentially, which is what I'd expect.)
+
 (defn hello
   ([] "Hello World!")
   ([a] (str "Hello, you silly " a "."))
