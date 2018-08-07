@@ -1,6 +1,8 @@
 (ns koans.23-meta
   (:require [koan-engine.core :refer :all]))
 
+(comment Lunch break.)
+
 (def giants
   (with-meta 'Giants
     {:league "National League"}))
