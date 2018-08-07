@@ -4,6 +4,8 @@
 (def the-world (ref "hello"))
 (def bizarro-world (ref {}))
 
+(comment Back.)
+
 (meditations
   "In the beginning, there was a word"
   (= "hello" (deref the-world))
